@@ -18,7 +18,7 @@
         /// <summary>
         /// Amount for when the dice is actaully rolled
         /// </summary>
-        protected int Amonut { get; set; }
+        protected int Amount { get; set; }
 
         public Die(int sides)
         {
