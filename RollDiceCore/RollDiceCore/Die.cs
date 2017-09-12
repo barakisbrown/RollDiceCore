@@ -1,4 +1,4 @@
-﻿namespace RollDiceCore.Src
+﻿namespace RollDiceCore
 {
     /// <summary>
     /// This visualizes what a single die[example: D6] used in any games.

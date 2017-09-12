@@ -1,4 +1,4 @@
-﻿namespace RollDiceCore.Src
+﻿namespace RollDiceCore
 {
     public enum DiceTypes
     {
