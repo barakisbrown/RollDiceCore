@@ -2,7 +2,11 @@
 {
     /// <summary>
     /// An success is when dice a rolled against a target number to determine if the action
-    /// was good or not. Games such as Storyteller, Shadowrun, others
+    /// was good or not. Games such as Storyteller, Shadowrun, others.
+    /// NOTE: This is a single die based success dice roller 
+    ///       Example: D10 with TN 8 [Chronicles of Darkness]
+    ///                D6  with TN 5 [Shadownrun 5th]
+    ///                DX  with TN X [Generic Success based roll]
     /// </summary>
     public class Success
     {
