@@ -25,5 +25,25 @@
         {
             return _diceRoller.RAND.Next(1, _sides);
         }
+
+        /// <summary>
+        /// Rolls the same dice a predefined number of times based on the argument supplied
+        /// IE: numberOfTimes = 5, then it will roll the dice 5 times and then return the result
+        /// </summary>
+        /// <returns>Amount rolled</returns>
+        /// <param name="numberOfTimes">The number of dice rolled. Has to be greater than 1</param>
+        public int Roll(int numberOfTimes)
+        {
+            if (numberOfTimes < 1)
+                throw new System.ArgumentException("Number of dice has to be at least 1");
+
+            int resultReturned = 0;
+            for (int i = 0; i < numberOfTimes; i++)
+            {
+                resultReturned += Roll();
+            }
+
+            return resultReturned;
+        }
     }
 }
