@@ -1,6 +1,5 @@
 ﻿namespace RollDiceCore
 {
-    using System;
     /// <summary>
     /// An success is when dice a rolled against a target number to determine if the action
     /// was good or not. Games such as Storyteller, Shadowrun, others.
